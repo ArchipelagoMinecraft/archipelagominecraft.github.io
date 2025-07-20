@@ -28,7 +28,7 @@ You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
 ## Vanilla
 
 ### Original Randomizer Parity
-- [ ] Achievementsanity
+- [ ] Advancementsanity
 - [ ] Boss slaying goals
   - [ ] Ender Dragon goal
   - [ ] Wither goal
