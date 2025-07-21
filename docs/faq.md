@@ -20,7 +20,8 @@ Please leave any feedback at https://discord.gg/archipelago
 This is a project that aims to make the Minecraft randomizer more flexible for a variety of different randomizers.
 
 We're doing this so that it's easier to maintain and port to different versions in the long run.
-We also want to support a wide variety of different modpacks, so we're working on a very cohesive framework.
+We also want to support a wide variety of different modpacks.
+These goals require a well-designed framework.
 
 ## Who's working on this?
 
@@ -51,17 +52,20 @@ We are very open to feedback!
 
 ## Will you consolidate with the current NeoForge fork of Kono's randomizer?
 
-A port of that client would certainly be possible to integrate with our
-[core client](/docs/architecture/client/core) (by design);
-however, using our framework is not in their best interest at the moment,
-so we are working on our own vanilla implementation in Kotlin.
+The code architecture between these two Archipelago clients is very different under the hood,
+and the goals we have aren't aligned.
 
-Regardless, they're working on supporting Archipelago 0.6.2,
-so look forward to that at some point.
+(In technical terms: Due to our modular philosophy, much of the original client code would need
+a big split and refactor to work with the data model we've implemented.)
 
-For now, we're planning our vanilla APWorld rewrite to have full parity with the original randomizer,
-implement more features, fix old problems, and work on top of an implementation that's easier to maintain,
-and backed by more research.
+Nevertheless, we respect the fork's maintainers immensely for their efforts on bringing it back soon,
+and we're excited to see the release of their mod when it's ready.
+They're currently working on supporting Archipelago 0.6.2, so please look forward to it!
+
+We're rewriting the vanilla APWorld alongside the mod client (which is being written in Kotlin)
+to maintain full parity with the original randomizer,
+with added features, better version support,
+and further improvements on a new implementation that is more futureproof.
 
 See the [roadmap](/docs/roadmap) for more details.
 
