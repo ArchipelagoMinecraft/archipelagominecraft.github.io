@@ -1,8 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 draft: true
 ---
 
-# KubeJS
+# Vanilla
+
+[//]: # (TODO)
 
 Still being worked on. Come back later!

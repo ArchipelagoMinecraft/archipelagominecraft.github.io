@@ -6,7 +6,12 @@ sidebar_position: 2
 
 :::warning
 
-This project is undergoing heavy development. Plans and documentation may change on a whim!
+This project is in a heavy pre-production state.
+All information on this wiki is subject to change!
+
+Please leave any feedback at https://discord.gg/archipelago
+(find us in
+[`#minecraft` in the Minecraft Client 2.0 thread](https://discord.com/channels/731205301247803413/1394782863135608832/1394783006849368065)).
 
 :::
 

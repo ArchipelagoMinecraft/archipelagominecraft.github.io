@@ -1,0 +1,8 @@
+{
+  "label": "Client Architecture",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentation for Minecraft's side of the implementation, and its various modules."
+  }
+}
