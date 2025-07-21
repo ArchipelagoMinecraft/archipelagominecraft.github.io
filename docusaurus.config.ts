@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Archipelago Minecraft Rewrite',
-  tagline: 'A modular, extensible and flexible randomizer for Minecraft Archipelago.',
+  tagline: 'A modular, extensible and flexible Minecraft randomizer for Archipelago.',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
