@@ -16,10 +16,12 @@ You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
 ## Essentials
 
 - [ ] Initial APWorld template
+  - [ ] `.apmcbundle` generation
   - [ ] Basic headless server hosting
-- [ ] Initial Core Client (interfaces without implementation details)
+- [ ] Initial Core Client (interfaces without Minecraft implementation details)
   - [ ] Location checking
   - [ ] Item receiving
+  - [ ] Bounce packets
   - [ ] Death link packets
   - [ ] Gifting packets
   - [ ] Ring link packets
@@ -34,9 +36,13 @@ You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
   - [ ] Wither goal
   - [ ] All bosses
 - [ ] Egg shards
+- [ ] Spawn all end gateways by default
 - [ ] Structure randomizer/compasses
+- [ ] Increased structure spawn rate
 - [ ] Bee trap
 - [ ] Mob sending
+- [ ] Custom Nether/End village structures
+- [ ] Increased Wither Skull drop rates
 
 ### Sanities
 - [ ] Mobsanity
@@ -58,13 +64,6 @@ You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
   - [ ] Lunacid support
 
 ## Mod Support
-- [ ] Mod loader support
-  - [ ] NeoForge
-  - [ ] Forge
-    - [ ] Forge legacy (&lt;=1.12.2)
-  - [ ] Fabric
-    - [ ] Fabric legacy (&lt;=1.12.2)
-  - [ ] Quilt
 - [ ] Individual mod support for the vanilla APWorld via content packs
 - [ ] Vanilla backport to 1.21.1 to support major mods; option to choose version
 - [ ] KubeJS integration for Core Client
@@ -73,7 +72,17 @@ You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
 ## Developer Experience
 - [ ] Content pack system for APWorld templates
 - [ ] APWorld template generation
-- [ ] DSL for representing large logic chains in Archipelago worlds
+
+## Backport Requests
+
+These backports should eventually become available when we stabilize the core and vanilla APIs.
+
+- [ ] Forge 1.16.5 + KubeJS Addon for Create Above and Beyond (@Treeways)
+- [ ] Cursed Fabric Loader 1.5.2 for Better Than Wolves: Community Edition (@Patchwork)
+  - [BTW CE Repository](https://github.com/BTW-Community/BTW-Public?tab=readme-ov-file)
+- [ ] Forge 1.7.10 for GregTech New Horizons (multi-developer effort; we need to put together a team for this)
+  - [1.7.10 ExampleMod](https://github.com/GTNewHorizons/ExampleMod1.7.10) | [GTNH Modding Guide](https://gtnh.miraheze.org/wiki/Development)
 
 ## For Future Consideration
-- [ ] Biomesanity (cannot enter specific biome without its item)
+- [ ] Sanities: Biomesanity (cannot enter specific biome without its item)
+- [ ] DX: DSL for representing large logic chains in Archipelago worlds
