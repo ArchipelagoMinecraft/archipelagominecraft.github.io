@@ -15,6 +15,14 @@ You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
 
 ## Essentials
 
+- [ ] Initial prototype/proof of concept
+  - [x] Multi-mod loader support
+  - [x] Multi-version support
+  - [ ] Test APWorld
+  - [ ] First connection from 1.21.8
+  - [ ] First connection from 1.12.2
+  - [ ] First item/location send
+  - [ ] Modular project structure
 - [ ] Initial APWorld template
   - [ ] `.apmcbundle` generation
   - [ ] Basic headless server hosting
