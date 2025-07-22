@@ -32,4 +32,4 @@ Archipelago takes redistribution very seriously.
 
 ## Output Data
 
-See [Output Data](/docs/architecture/archipelago/outputdata).
+See [Mappings](/docs/architecture/archipelago/mappings).

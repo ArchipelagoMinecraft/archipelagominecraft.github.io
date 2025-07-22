@@ -2,13 +2,14 @@
 sidebar_position: 3
 ---
 
-# Output Data
+# Mappings
 
-Once game generation is finished, output data will be written into a data file,
-which is placed in the [`.apmcbundle` file](/docs/architecture/archipelago/apmcbundle).
+Once game generation is finished, mapping definitions for each item/location
+will be written into a `.json` file,
+which is placed in the [`.apmcbundle`](/docs/architecture/archipelago/apmcbundle).
 
-The output data is parsed on runtime by the [core client](/docs/architecture/client/core)
-to send the right locations and provide item rewards.
+This mapping is parsed on runtime by the [core client](/docs/architecture/client/core)
+to send the right locations and provide proper item rewards.
 
 ## List of Types
 

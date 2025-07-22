@@ -17,7 +17,7 @@ The Core Client is middleware which does nothing on its own. It needs to be inte
 
 ## Integration
 
-On game load, the core client takes the [output data](/docs/architecture/archipelago/outputdata) of a multiworld
+On game load, the core client takes the [mappings](/docs/architecture/archipelago/mappings) of a multiworld
 and registers its data correspondingly. Addon mods should register individual calls by namespace and type.
 The client will then return a handler for a specified call,
 sending and receiving multiworld items of its type to that handler.
