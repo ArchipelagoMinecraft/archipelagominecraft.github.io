@@ -18,6 +18,15 @@ Please leave any feedback at https://discord.gg/archipelago
 Feel free to suggest new feature ideas in the Archipelago Discord server.
 You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
 
+:::info
+This roadmap is a long-term plan, <u>not a list of promises</u>.
+We're doing this for free, and we've got life to tend to as well.
+Please be patient with us!
+
+If you would like to help code some of these features, feel free to offer us a hand
+in our Discord server (see above for links).
+:::
+
 ## Essentials
 
 - [ ] Initial prototype/proof of concept
@@ -63,9 +72,22 @@ You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
 - [ ] Blocksanity
   - [ ] Also lock blocks from dropping
   - [ ] Also randomize block drops
+- [ ] Itemsanity
+- [ ] Huntsanity (like block/itemsanity but limited to a specific list of items)
+  - [ ] Item hunt
+  - [ ] Block hunt
+  - [ ] Custom maximum amount of items to find
+
+### Gamemodes
+
+- [ ] Bingo
+  - [ ] Customizable grid size
 
 ### Traps
 - [ ] Anvil trap
+
+### Goals
+- [ ] Huntsanity: Find all items
 
 ### Links
 - [ ] Mob sending
