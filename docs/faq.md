@@ -50,19 +50,17 @@ you can let us know what mod loader/version you want to see a backport for.
 If you think you could help, let us know what you want to work on in [our Discord thread](/docs/contact).
 We are very receptive!
 
-## Will you consolidate with the current NeoForge fork of Kono's randomizer?
+## Will you consolidate with the current NeoForge fork of KonoTyran's randomizer?
 
 These two clients are very different under the hood, and would require
 an extraordinary amount of effort to port to the new architecture we've come up with.
 
-Nevertheless, we highly respect the maintainers of the Kono fork, and
-we're very excited to see the release of their mod when it's ready.
+Nevertheless, we highly respect the current maintainers of the KonoTyran fork for their effort,
+and we're very excited to see the release of their mod when it's ready.
 They're currently working on supporting Archipelago 0.6.2, so please look forward to it!
 
-One of our main goals for the new randomizer is
-to maintain full parity with the original randomizer,
-also adding on features, better version support,
-and further improvements on a more futureproof implementation.
+One of our main goals for the new randomizer is to maintain full parity with the original randomizer,
+while adding on new features, better version support, and further improvements on a futureproof base implementation.
 
 See the [roadmap](/docs/roadmap) for more details.
 
