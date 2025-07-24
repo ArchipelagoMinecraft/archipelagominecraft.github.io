@@ -6,4 +6,4 @@ sidebar_position: 3
 
 [//]: # (TODO)
 
-This page should update when the core API is stabilized. Come back later!
+To be implemented when the core API is stabilized. Come back later!

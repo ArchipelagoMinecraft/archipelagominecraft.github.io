@@ -19,18 +19,17 @@ Please leave any feedback at https://discord.gg/archipelago
 
 This is a total rewrite of the original Archipelago client for Minecraft.
 The goal is to provide a core foundation of tools for writing Minecraft vanilla and modpack implementations,
-focusing on long-term maintainability, modularity, flexibility and extendability.
+focusing on futureproof maintainability, as well as modularity and extendability.
 
 Currently, this project is in a planning/pre-production phase, with no release date.
 
-Priority is currently placed on one extendable implementation for 1.21.8.
-Backports to older versions and loaders will be created on request later down the line.
+Priority is currently being placed on one extendable implementation for NeoForge 1.21.8.
+Backports to older versions and loaders will be created by request later down the line.
 
-Join us at https://discord.gg/archipelago (find us in
-[`#minecraft` in the Minecraft Client 2.0 thread](https://discord.com/channels/731205301247803413/1394782863135608832/1394783006849368065)).
-If you'd like to contribute, definitely reach out to us there.
+Feel free to [contact us](/docs/contact) with any feedback you might have.
+If you'd like to contribute, definitely reach out.
 
-Feel free to check out our [GitHub Organization](https://github.com/ArchipelagoMinecraft).
+Also, feel free to check out the [Archipelago Minecraft GitHub organization](https://github.com/ArchipelagoMinecraft).
 
 ## Goals
 

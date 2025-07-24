@@ -19,12 +19,10 @@ Feel free to suggest new feature ideas in the Archipelago Discord server.
 You can find us in the `#minecraft` channel's "Minecraft Client v2.0" thread.
 
 :::info
-This roadmap is a long-term plan, <u>not a list of promises</u>.
-We're doing this for free, and we've got life to tend to as well.
-Please be patient with us!
+This roadmap is a long-term plan, not a list of promises.
+All of this is free, and good software takes time to develop. Please be patient!
 
-If you would like to help code some of these features, feel free to offer us a hand
-in our Discord server (see above for links).
+If you are interested in contributing, feel free to give us a hand.
 :::
 
 ## Essentials
@@ -36,10 +34,15 @@ in our Discord server (see above for links).
   - [ ] First connection from 1.21.8
   - [ ] First connection from 1.12.2
   - [ ] First item/location send
-  - [ ] Modular project structure
+  - [ ] Fully modularized project structure
+
+### APWorld
 - [ ] Initial APWorld template
+  - [ ] Content pack system for APWorld templates
   - [ ] `.apmcbundle` generation
   - [ ] Basic headless server hosting
+
+### Core Client
 - [ ] Initial Core Client (interfaces without Minecraft implementation details)
   - [ ] Location checking
   - [ ] Item receiving
@@ -52,21 +55,24 @@ in our Discord server (see above for links).
 ## Vanilla
 
 ### Original Randomizer Parity
-- [ ] Advancementsanity
-- [ ] Boss slaying goals
-  - [ ] Ender Dragon goal
-  - [ ] Wither goal
-  - [ ] All bosses
+- [ ] [Sanities](#sanities): Advancementsanity
+  - [ ] [Sanities](#sanities): Include legacy achievements
+- [ ] [Goals](#goals): Boss slaying goals
+  - [ ] [Goals](#goals): Ender Dragon goal
+  - [ ] [Goals](#goals): Wither goal
+  - [ ] [Goals](#goals): All bosses
+- [ ] [Traps](#traps): Bee trap
 - [ ] Egg shards
 - [ ] Spawn all end gateways by default
 - [ ] Structure randomizer/compasses
-- [ ] Increased structure spawn rate
-- [ ] Bee trap
+  - [ ] Increased structure spawn rate
 - [ ] Mob sending
 - [ ] Custom Nether/End village structures
 - [ ] Increased Wither Skull drop rates
 
 ### Sanities
+- [ ] Advancementsanity
+  - [ ] Include legacy achievements
 - [ ] Mobsanity
   - [ ] Also randomize mob pools
 - [ ] Blocksanity
@@ -85,8 +91,13 @@ in our Discord server (see above for links).
 
 ### Traps
 - [ ] Anvil trap
+- [ ] Bee trap
 
 ### Goals
+- [ ] Boss slaying goals
+  - [ ] Ender Dragon goal
+  - [ ] Wither goal
+  - [ ] All bosses
 - [ ] Huntsanity: Find all items
 
 ### Links
@@ -98,15 +109,18 @@ in our Discord server (see above for links).
   - [ ] EarthBound support
   - [ ] Lunacid support
 
+### Custom Achievements
+- [ ] Furnace% tribute
+  - [ ] 37 furnaces
+  - [ ] 37 blast furnaces
+  - [ ] 37 stacks of furnaces
+  - [ ] 37 stacks of blast furnaces
+
 ## Mod Support
 - [ ] Individual mod support for the vanilla APWorld via content packs
 - [ ] Vanilla backport to 1.21.1 to support major mods; option to choose version
 - [ ] KubeJS integration for Core Client
 - [ ] Documented API and modding guide
-
-## Developer Experience
-- [ ] Content pack system for APWorld templates
-- [ ] APWorld template generation
 
 ## Backport Requests
 
@@ -119,5 +133,6 @@ These backports should eventually become available when we stabilize the core an
   - [1.7.10 ExampleMod](https://github.com/GTNewHorizons/ExampleMod1.7.10) | [GTNH Modding Guide](https://gtnh.miraheze.org/wiki/Development)
 
 ## For Future Consideration
+- [ ] APWorld: Template generator
 - [ ] Sanities: Biomesanity (cannot enter specific biome without its item)
 - [ ] DX: DSL for representing large logic chains in Archipelago worlds

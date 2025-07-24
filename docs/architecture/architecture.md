@@ -4,7 +4,8 @@ sidebar_position: 1
 
 # Architecture Overview
 
-There are many different parts due to the project's modular design philosophy.
+A highly modular architecture allows for the separation of many different parts,
+working together to provide overall functionality.
 
 [Archipelago Architecture](/docs/category/archipelago-architecture) refers to
 the leftmost and uppermost parts of this diagram.<br />
@@ -14,5 +15,3 @@ the rightmost part.
 Click on a sidebar entry for a component to learn more.
 
 ![Architecture diagram](/img/architecture-diagram.webp)
-
-[Download draw.io graph](/drawio/architecture-diagram.drawio)

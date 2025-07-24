@@ -13,12 +13,6 @@ to send the right locations and provide proper item rewards.
 
 ## List of Types
 
-:::warning
-Types and their namespaces are reserved for their respective mod,
-and should not be registered internally more than once.
-If you need to interpret an item call, please initialize your own mod's handler for that purpose.
-:::
-
 ### Vanilla Items
 
 To be filled out when the API stabilizes.

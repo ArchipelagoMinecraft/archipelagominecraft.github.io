@@ -17,18 +17,19 @@ Please leave any feedback at https://discord.gg/archipelago
 
 ## What's the basic TL;DR of this project?
 
-This is a project that aims to make the Minecraft randomizer more flexible for a variety of different randomizers.
+This is a project that aims to make the Minecraft randomizer more flexible for a variety of different randomizers,
+including vanilla and modpack implementations.
 
-We're doing this so that it's easier to maintain and port to different versions in the long run.
-We also want to support a wide variety of different modpacks.
+By rewriting the randomizer in a more flexible way, it's futureproof and easily extendable.
+Another goal is to support a wide variety of versions and mod loaders for different modpacks to add to.
 These goals require a well-designed framework.
 
 ## Who's working on this?
 
 Currently:
-- `@Treeways` working on this wiki and planning
-- `@LelouBil` on the initial client code and planning
-- `@studkid` with planning
+- `@Treeways` working on this wiki and researching the APWorld design
+- `@LelouBil` working on the initial client code
+- `@studkid` for spearheading the unofficial implementation, and heavily inspiring this project
 
 Feel free to check out our [GitHub organization](https://github.com/ArchipelagoMinecraft).
 
@@ -36,7 +37,7 @@ Thanks to everyone who's given us support and feedback over the course of develo
 
 ## When will this be done?
 
-There is lots to be designed and implemented, so it's impossible to tell at the moment. When it's done, it's done.
+When it's done, it's done. There's too much to be done; it's impossible to tell right now.
 
 ## How can I help?
 
@@ -44,28 +45,24 @@ Thanks for asking.
 Feel free to skim through the documentation - there is plenty to work on at the moment.
 
 If you'd rather work with modpacks later on,
-you can let us know what version you want to see a backport for.
+you can let us know what mod loader/version you want to see a backport for.
 
-If you think you could help, let us know what you want to work on at
-https://discord.gg/archipelago (`#minecraft` in the "Minecraft Client 2.0" thread).
-We are very open to feedback!
+If you think you could help, let us know what you want to work on in [our Discord thread](/docs/contact).
+We are very receptive!
 
 ## Will you consolidate with the current NeoForge fork of Kono's randomizer?
 
-The code architecture between these two Archipelago clients is very different under the hood,
-and the goals we have aren't aligned.
+These two clients are very different under the hood, and would require
+an extraordinary amount of effort to port to the new architecture we've come up with.
 
-(In technical terms: Due to our modular philosophy, much of the original client code would need
-a big split and refactor to work with the data model we've implemented.)
-
-Nevertheless, we respect the fork's maintainers immensely for their efforts on bringing it back soon,
-and we're excited to see the release of their mod when it's ready.
+Nevertheless, we highly respect the maintainers of the Kono fork, and
+we're very excited to see the release of their mod when it's ready.
 They're currently working on supporting Archipelago 0.6.2, so please look forward to it!
 
-We're rewriting the vanilla APWorld alongside the mod client (which is being written in Kotlin)
+One of our main goals for the new randomizer is
 to maintain full parity with the original randomizer,
-with added features, better version support,
-and further improvements on a new implementation that is more futureproof.
+also adding on features, better version support,
+and further improvements on a more futureproof implementation.
 
 See the [roadmap](/docs/roadmap) for more details.
 
@@ -74,11 +71,11 @@ See the [roadmap](/docs/roadmap) for more details.
 Please see the
 [AP Minecraft FAQ Google Doc](https://docs.google.com/document/d/1AMcototDovob8YJ7w4UFKAiUMCV21uQjJqzw_dr-sJQ/).
 
-## Could you add a new feature, or port the client to support a modpack I want to work on?
+## Could you add a new feature?
+
+Definitely!
 
 We'd be happy to add new vanilla features and provide additional modded support.
-We also have a list of features to implement, and a few backports to support,
-as listed on the [roadmap](/docs/roadmap).
+Check out our [roadmap](/docs/roadmap).
 
-Definitely let us know at
-https://discord.gg/archipelago (`#minecraft` in the "Minecraft Client 2.0" thread).
+Please [contact us](/docs/contact) with any ideas you might have.
