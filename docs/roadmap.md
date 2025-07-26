@@ -98,6 +98,8 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] Cropsanity
   - [ ] Fishsanity
 - [ ] Exploresanity
+  - [ ] Dimensionsanity
+    - [ ] Lock nether and end access
   - [ ] Biomesanity
     - [ ] Biome compass
     - [ ] Exclude Rare Biomes
@@ -113,6 +115,7 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] Breedsanity
   - [ ] Tamesanity
 - [ ] Tradesanity
+  - [ ] Trade slot lock
 - [ ] Huntsanity (like block/itemsanity but limited to a specific list of items)
   - [ ] Item hunt
   - [ ] Block hunt
@@ -131,9 +134,14 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] Bee trap
   - [ ] Creeper trap
   - [ ] Chicken jockey trap
+  - [ ] Warden trap
 - [ ] Nighttime trap
 
-### Filler Buffs
+### Buffs and Filler
+- [ ] Permanenent status boosts
+  - [ ] Progressive health
+  - [ ] Progressive inventory (9/18/27 slots)
+  - [ ] Progressive speed
 - [ ] Various effects like Strength, Speed II, Haste III, etc.
 - [ ] Blocks
   - [ ] Dirt
@@ -163,6 +171,7 @@ If you are interested in contributing, feel free to give us a hand.
 - [ ] Randomize mob spawns
 - [ ] Structure randomizer
   - [ ] Structure compass
+  - [ ] Chest lock for chests in structures
   - [ ] More randomized structures
     - [ ] Igloo
     - [ ] Ocean monument
