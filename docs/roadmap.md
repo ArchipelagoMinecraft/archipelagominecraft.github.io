@@ -73,12 +73,46 @@ If you are interested in contributing, feel free to give us a hand.
 ### Sanities
 - [ ] Advancementsanity
   - [ ] Include legacy achievements
+- [ ] Createsanity
+  - [ ] Craftsanity
+    - [ ] More crafting unlock tiers/categories
+      - [ ] Neat toggleable categories, such as "essentials", or more specific randomization options
+      - [ ] Crafting table
+      - [ ] Storage
+      - [ ] Lights
+      - [ ] Ore tiers (iron/diamond/netherite etc.)
+      - [ ] Cooking
+      - [ ] Logistics
+        - [ ] Transportation
+        - [ ] Redstone
+      - [ ] Decor
+  - [ ] Smeltsanity
+    - [ ] Logic for all furnaces, including campfires
+  - [ ] Enchantsanity
+    - [ ] Cursesanity
+  - [ ] Brewsanity
 - [ ] Mobsanity
   - [ ] Also randomize mob pools
+  - [ ] Wither Skulls are items
+- [ ] Farmsanity
+  - [ ] Cropsanity
+  - [ ] Fishsanity
+- [ ] Exploresanity
+  - [ ] Biomesanity
+    - [ ] Biome compass
+    - [ ] Exclude Rare Biomes
+  - [ ] Structuresanity
 - [ ] Blocksanity
+  - [ ] Block mining/block drops and gate them behind tools/tiers (fist, pickaxe, shovel, etc.)
+    - [ ] Also lock by material type, such as iron, diamond, netherite, etc.
   - [ ] Also lock blocks from dropping
   - [ ] Also randomize block drops
 - [ ] Itemsanity
+  - [ ] Discsanity
+- [ ] Animalsanity
+  - [ ] Breedsanity
+  - [ ] Tamesanity
+- [ ] Tradesanity
 - [ ] Huntsanity (like block/itemsanity but limited to a specific list of items)
   - [ ] Item hunt
   - [ ] Block hunt
@@ -91,14 +125,30 @@ If you are interested in contributing, feel free to give us a hand.
 
 ### Traps
 - [ ] Anvil trap
-- [ ] Bee trap
+- [ ] Potion effect trap
+  - [ ] Poison, blindness, etc.
+- [ ] Mob trap
+  - [ ] Bee trap
+  - [ ] Creeper trap
+  - [ ] Chicken jockey trap
+- [ ] Nighttime trap
+
+### Filler Buffs
+- [ ] Various effects like Strength, Speed II, Haste III, etc.
+- [ ] Blocks
+  - [ ] Dirt
+- [ ] Resources
+  - [ ] Gold/iron nuggets
+  - [ ] Bones
 
 ### Goals
 - [ ] Boss slaying goals
   - [ ] Ender Dragon goal
   - [ ] Wither goal
+  - [ ] Elder Guardian
   - [ ] All bosses
 - [ ] Huntsanity: Find all items
+- [ ] Netherite Hoe goal
 
 ### Links
 - [ ] Mob sending
@@ -108,6 +158,30 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] Timespinner support
   - [ ] EarthBound support
   - [ ] Lunacid support
+
+### Randomization
+- [ ] Randomize mob spawns
+- [ ] Structure randomizer
+  - [ ] Structure compass
+  - [ ] More randomized structures
+    - [ ] Igloo
+    - [ ] Ocean monument
+    - [ ] Mansion
+    - [ ] Ancient city
+    - [ ] Mineshaft
+    - [ ] Dungeon
+    - [ ] Jungle temple
+    - [ ] Desert pyramid
+    - [ ] Modded structure support?
+
+### World Generation Options
+- [ ] Seed
+- [ ] Superflat
+- [ ] Amplified
+- [ ] Large biomes
+- [ ] Random biomes
+- [ ] Equal biome chances
+- [ ] Structures in any biome
 
 ### Custom Achievements
 - [ ] Furnace% tribute
