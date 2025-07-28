@@ -61,14 +61,15 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] [Goals](#goals): Ender Dragon goal
   - [ ] [Goals](#goals): Wither goal
   - [ ] [Goals](#goals): All bosses
+- [ ] [Gamemodes](#gamemodes): Egg Shard Hunt
+- [ ] [Randomization](#randomization): Structure randomizer
+- [ ] [Randomization](#randomization): Structure compasses
+- [ ] [Randomization](#randomization): Custom Nether/End village structures
+- [ ] [Quality of Life](#quality-of-life): Increased structure spawn rate
+- [ ] [Quality of Life](#quality-of-life): Spawn all end gateways by default
+- [ ] [Quality of Life](#quality-of-life): Increased Wither Skull drop rate
+- [ ] [Links](#links): Mob sending
 - [ ] [Traps](#traps): Bee trap
-- [ ] Egg shards
-- [ ] Spawn all end gateways by default
-- [ ] Structure randomizer/compasses
-  - [ ] Increased structure spawn rate
-- [ ] Mob sending
-- [ ] Custom Nether/End village structures
-- [ ] Increased Wither Skull drop rates
 
 ### Sanities
 - [ ] Advancementsanity
@@ -116,13 +117,14 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] Tamesanity
 - [ ] Tradesanity
   - [ ] Trade slot lock
-- [ ] Huntsanity (like block/itemsanity but limited to a specific list of items)
-  - [ ] Item hunt
-  - [ ] Block hunt
-  - [ ] Custom maximum amount of items to find
 
 ### Gamemodes
 
+- [ ] Huntsanity (like block/itemsanity but limited to a specific list of items)
+  - [ ] Egg Shard Hunt
+  - [ ] Item hunt
+  - [ ] Block hunt
+  - [ ] Custom maximum amount of items to find
 - [ ] Bingo
   - [ ] Customizable grid size
 
@@ -156,7 +158,8 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] Elder Guardian
   - [ ] All bosses
 - [ ] Huntsanity: Find all items
-- [ ] Netherite Hoe goal
+- [ ] Difficult achievements as goals
+  - [ ] Netherite Hoe goal
 
 ### Links
 - [ ] Mob sending
@@ -169,6 +172,9 @@ If you are interested in contributing, feel free to give us a hand.
 
 ### Randomization
 - [ ] Randomize mob spawns
+- [ ] Recipe randomizer
+- [ ] Mob drop randomizer
+- [ ] Loot table randomizer
 - [ ] Structure randomizer
   - [ ] Structure compass
   - [ ] Chest lock for chests in structures
@@ -193,11 +199,17 @@ If you are interested in contributing, feel free to give us a hand.
 - [ ] Structures in any biome
 
 ### Custom Achievements
-- [ ] Furnace% tribute
-  - [ ] 37 furnaces
-  - [ ] 37 blast furnaces
-  - [ ] 37 stacks of furnaces
-  - [ ] 37 stacks of blast furnaces
+- [ ] Custom difficult achievements (which could also function as goals)
+  - [ ] Furnace% tribute
+    - [ ] 37 furnaces
+    - [ ] 37 blast furnaces
+    - [ ] 37 stacks of furnaces
+    - [ ] 37 stacks of blast furnaces
+
+### Quality of Life
+- [ ] Spawn all end gateways by default
+- [ ] Increased structure spawn rate
+- [ ] Increased Wither Skull drop rate
 
 ## Mod Support
 - [ ] Individual mod support for the vanilla APWorld via content packs
