@@ -127,6 +127,7 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] Custom maximum amount of items to find
 - [ ] Bingo
   - [ ] Customizable grid size
+- [ ] Nether spawnpoint/start
 
 ### Traps
 - [ ] Anvil trap
