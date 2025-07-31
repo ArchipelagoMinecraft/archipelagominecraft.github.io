@@ -172,23 +172,31 @@ If you are interested in contributing, feel free to give us a hand.
   - [ ] Lunacid support
 
 ### Randomization
-- [ ] Randomize mob spawns
+- [ ] Mob randomizer
+  - [ ] Mob drop randomizer
+  - [ ] Randomize mob spawns
+    - [ ] Mob spawn dimension shuffle
+    - [ ] Light level mob spawn shuffle
 - [ ] Recipe randomizer
-- [ ] Mob drop randomizer
 - [ ] Loot table randomizer
-- [ ] Structure randomizer
-  - [ ] Structure compass
-  - [ ] Chest lock for chests in structures
-  - [ ] More randomized structures
-    - [ ] Igloo
-    - [ ] Ocean monument
-    - [ ] Mansion
-    - [ ] Ancient city
-    - [ ] Mineshaft
-    - [ ] Dungeon
-    - [ ] Jungle temple
-    - [ ] Desert pyramid
-    - [ ] Modded structure support?
+- [ ] World generation randomizer
+  - [ ] Structure randomizer
+    - [ ] Structure compass
+    - [ ] Chest lock for chests in structures
+    - [ ] More randomized structures
+      - [ ] Igloo
+      - [ ] Ocean monument
+      - [ ] Mansion
+      - [ ] Ancient city
+      - [ ] Mineshaft
+      - [ ] Dungeon
+      - [ ] Jungle temple
+      - [ ] Desert pyramid
+      - [ ] Modded structure support?
+  - [ ] Place world generation features in random dimensions
+    - [ ] Random naturals placement (ie. glow berries or moss in the Nether)
+    - [ ] Random ore placement
+    - [ ] Random geode placement
 
 ### World Generation Options
 - [ ] Seed
